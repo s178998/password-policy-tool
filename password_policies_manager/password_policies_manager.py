@@ -1,6 +1,6 @@
 import random
 import string
-from password_policy_tool.logs.logs import Logs
+from logs.logs import Logs
 
 class PasswordPolicy:
     """

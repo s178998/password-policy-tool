@@ -1,6 +1,6 @@
 import pathlib
 import json
-from password_policy_tool.logs.logs import Logs
+from logs.logs import Logs
 import csv
 from datetime import datetime, timezone
 from json import JSONDecodeError

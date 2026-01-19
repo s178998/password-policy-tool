@@ -1,6 +1,6 @@
 import argparse
-from password_policy_tool.logs.log_analyzer import LogAnalyzer
-from password_policy_tool.password_policies_manager.password_policies_manager import PasswordPolicy
+from logs.log_analyzer import LogAnalyzer
+from password_policies_manager.password_policies_manager import PasswordPolicy
 
 def main():
     parser = argparse.ArgumentParser(description="Password Policy Tool")
