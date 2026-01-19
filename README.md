@@ -48,26 +48,24 @@ python3 main.py
 
 Project Structure
 password_policy_tool/
-│
-├── main.py                       # CLI entry point for the tool
-├── README.md                      # Project overview, installation, usage
-├── requirements.txt               # Python dependencies
-├── .gitignore                     # Files/folders to ignore in Git
+├── main.py # CLI entry point for the tool
+├── README.md # Project overview, installation, usage
+├── requirements.txt # Python dependencies
+├── .gitignore # Files/folders to ignore in Git
 │
 ├── data/
-│   └── raw_logs/                  # Raw log files for testing / analysis
+│ └── raw_logs/ # Raw log files for testing / analysis
 │
 ├── logs/
-│   ├── __init__.py
-│   ├── log_analyzer.py            # Functions to check passwords, export CSV, stats
-│   └── logs.py                    # Logging helper functions (admin/user/master logs)
+│ ├── init.py
+│ ├── log_analyzer.py # Functions to check passwords, export CSV, stats
+│ └── logs.py # Logging helper functions (admin/user/master logs)
 │
 ├── password_policies_manager/
-│   ├── __init__.py
-│   └── password_policies_manager.py  # Password generation, validation, policy checking
+│ ├── init.py
+│ └── password_policies_manager.py # Password generation, validation, policy checking
 │
-└── __pycache__/                   # (ignored by Git) compiled Python files
-
+└── pycache/ # (ignored by Git) compiled Python files
 
 Contributing
 
