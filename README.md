@@ -18,8 +18,8 @@ This tool is designed to be lightweight and self-contained, providing the follow
 1. Clone or download this repository:
 
 ```bash
-git clone https://github.com/s178998/CyberOpsToolkit.git
-cd cyber_tools/password_policy_tool
+git clone https://github.com/s178998/password-policy-tool.git
+cd password-policy-tool
 ```
 2. Create and activate a Python virtual environment:
 ``` bash
