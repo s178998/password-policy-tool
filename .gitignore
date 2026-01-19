@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+data/raw_logs/*.txt # optional, if you want raw logs ignored
